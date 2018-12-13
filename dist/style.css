@@ -1,0 +1,41 @@
+#player-info {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+    .all-info{
+    grid-template-areas: 
+        "n"
+        "j"
+        "i"
+        "p";
+        background-color: orange;
+        margin: 1%;
+        text-align: center;
+        font-family: "Graduate";
+}
+
+#name {
+    grid-area: n;
+}
+#number {
+    grid-area: j;
+}
+#img {
+    grid-area: i;
+    background-color: lightgrey;
+    margin: 5px;
+}
+#pos {
+    grid-area: p;
+}
+#inpt {
+    width: 80%;
+    display: inline-block;
+    font-family: "Graduate";
+}
+
+.btn {
+    font-family: "Graduate";
+}
